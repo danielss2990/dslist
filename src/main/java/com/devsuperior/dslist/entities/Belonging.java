@@ -11,6 +11,7 @@ import jakarta.persistence.Table;
 @Table(name = "tb_belonging")
 public class Belonging {
 
+	//Chave Composta
 	@EmbeddedId
 	private BelongingPK id = new BelongingPK();
 
