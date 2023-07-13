@@ -6,6 +6,7 @@ import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
+//Classe de Relacionamento entre Game e GameList
 @Entity
 @Table(name = "tb_belonging")
 public class Belonging {
